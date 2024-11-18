@@ -7,7 +7,12 @@ html, body, #root {
 }
 
 canvas {
-  height: 100%;
+  margin: 0 auto;
+  height: 80%;
+  width: 80%;
+  border: 2px solid black;
+  display: block;
+
 }
 
 body {

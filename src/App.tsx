@@ -87,6 +87,7 @@ function App() {
 
   return (
     <>
+        <h1>枠内に線が引ける</h1>
         <canvas
           className="main-canvas"
           ref={canvas}
