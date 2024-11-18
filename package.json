@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "homepage": "https://imatsuzaki.github.io/any-stroke",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
     "tauri": "tauri"
   },
   "dependencies": {
@@ -21,6 +23,7 @@
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
   }
