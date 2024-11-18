@@ -37,11 +37,14 @@ const useDrawShapes = (ctx: any, color: any, range: any) => {
 function App() {
   // const [greetMsg, setGreetMsg] = useState("");
   // const [name, setName] = useState("");
+  // @ts-ignore
   const [color, setColor] = useState<string>("#000");
+  // @ts-ignore
   const [range, setRange] = useState<string>("5")
   const [isDrawing, setIsDrawing] = useState<boolean>(false);
   const {canvas, ctx, snapShot} = useDrawVariables();
   const { drawLine } = useDrawShapes(ctx, color, range);
+  // @ts-ignore
   const [startPoint, setStartPoint] = useState<PointEvent>();
 
   useEffect(() => {
