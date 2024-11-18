@@ -1,0 +1,19 @@
+/* App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  height: 100%;
+}
+
+body {
+  display: flex; /* フレックスボックスを使う場合 */
+  justify-content: center; /* 子要素の中央揃え */
+  align-items: center; /* 子要素の中央揃え */
+  background-color: #f0f0f0; /* 背景色（必要に応じて変更） */
+}
+
